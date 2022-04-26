@@ -8,7 +8,7 @@ from string import ascii_lowercase
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # listen on localhost port 1337
-s.bind(("127.0.0.1", 1337))
+s.bind(("10.0.2.18", 1337))
 
 # queue up to 5 requests
 s.listen(5)
